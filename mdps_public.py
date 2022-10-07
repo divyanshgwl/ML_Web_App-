@@ -94,7 +94,7 @@ if (selected == 'Heart Disease Prediction'):
         
     st.success(heart_diagnosis)
 
-#
+
 #   About Page
 if(Selected== 'About'):
     #Page Title
