@@ -25,7 +25,7 @@ with st.sidebar:
                            'About',
                            'Download Report',
                            'Docter View',   ],
-                          icons=['heart','know','paper','person'],
+                          icons=['heart','heart','person','person'],
                           default_index=0)
     
     
