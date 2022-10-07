@@ -30,10 +30,10 @@ with st.sidebar:
     
     
 # Diabetes Prediction Page
-if (selected == 'Diabetes Prediction'):
+if (selected == 'About'):
     
     # page title
-    st.title('Diabetes Prediction using ML')
+    st.title('About of Heart Disease Prediction')
     
     
     # getting the input data from the user
@@ -146,15 +146,32 @@ if (selected == 'Heart Disease Prediction'):
           heart_diagnosis = 'The person does not have any heart disease'
         
     st.success(heart_diagnosis)
+# Download Report Page
+if(Selected=="Download Report"):
+    #Page Title
+    st.title("Download Report")
+    with col1:
+        fo = st.text_input('MDVP:Fo(Hz)')
         
+    with col2:
+        fhi = st.text_input('MDVP:Fhi(Hz)')
+        
+    with col3:
+        flo = st.text_input('MDVP:Flo(Hz)')
+        
+    with col4:
+        Jitter_percent = st.text_input('MDVP:Jitter(%)')
+    
     
     
 
-# Parkinson's Prediction Page
-if (selected == "Parkinsons Prediction"):
+# Docter View Page
+if (selected == "Docter View"):
+    
     
     # page title
-    st.title("Parkinson's Disease Prediction using ML")
+    st.title("Docter View ")
+    
     
     col1, col2, col3, col4, col5 = st.columns(5)  
     
