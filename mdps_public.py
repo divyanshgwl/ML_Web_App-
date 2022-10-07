@@ -96,7 +96,7 @@ if (selected == 'Heart Disease Prediction'):
 
 #
 #   About Page
-if(Selected=="About"):
+if(Selected== 'About'):
     #Page Title
     st.title("About")
     with col1:
@@ -112,8 +112,8 @@ if(Selected=="About"):
         Jitter_percent = st.text_input('MDVP:Jitter(%)')
 
 
-#   About Page
-if(Selected=="Download Report"):
+#   Download Report Page
+if(Selected== 'Download Report'):
     #Page Title
     st.title("About")
     with col1:
@@ -132,7 +132,7 @@ if(Selected=="Download Report"):
     
 
 # Docter View Page
-if (selected == "Docter View"):
+if (selected == 'Docter View'):
     
     
     # page title
